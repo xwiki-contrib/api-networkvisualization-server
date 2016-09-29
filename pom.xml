@@ -19,9 +19,7 @@
   ~ 02110-1301 USA, or see the FSF site: http://www.fsf.org.
   -->
 
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>org.xwiki.commons</groupId>
@@ -31,7 +29,7 @@
 
   <groupId>org.xwiki.contrib.networkvisualization</groupId>
   <artifactId>api-networkvisualization-server</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0</version>
   <name>Network Visualization - WebSocket server API</name>
   <packaging>jar</packaging>
   <description>WebSocket server API that allow easy creation of live network graphs</description>
@@ -44,7 +42,7 @@
     <connection>scm:git:git://github.com/xwiki-contrib/api-networkvisualization-server.git</connection>
     <developerConnection>scm:git:git@github.com:xwiki-contrib/api-networkvisualization-server.git</developerConnection>
     <url>https://github.com/xwiki-contrib/api-networkvisualization-server/tree/master</url>
-    <tag>HEAD</tag>
+    <tag>api-networkvisualization-server-1.0</tag>
   </scm>
   <issueManagement>
     <system>jira</system>
